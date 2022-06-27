@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="js\chart\node_modules\chart.js\dist\chart.js"></script>
+    <script type="module" src="js\main.js" defer></script>
+    <title>Chart Component</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="myBalance">
+
+            <div class="myBalance-value">
+                <h3>My balance</h3>
+                <p>$921.48</p>
+            </div>
+
+            <img src="images/logo.svg" alt="dois circulos">
+
+        </div>
+
+        <main class="main-container">
+
+            <div class="speding">
+
+                <h1>Spending - Last 7 days</h1>
+
+                <div class="speding-chart">
+                    <canvas id="chart"></canvas>
+                </div>
+
+            </div>
+
+            <div class="total-month">
+
+                <div class="total-month-value">
+
+                    <h3>Total this month</h3>
+
+                    <p>$478.33</p>
+
+                </div>
+
+                <div class="total-month-percent">
+
+                    <p class="percent-content">+2.4%</p>
+
+                    <h3>from last month</h3>
+                    
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+</body>
+</html>

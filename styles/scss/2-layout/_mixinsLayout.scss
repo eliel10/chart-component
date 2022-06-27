@@ -1,0 +1,41 @@
+@use "../1-base/colors";
+@use "../1-base/fonts";
+
+@mixin border-radius-elements{
+    border-radius: 15px;
+}
+
+@mixin padding-elements{
+    padding: 1.25rem;
+}
+
+@mixin p-elements{
+    color:colors.$darkbrown;
+    font-family: "DM-sans-bold";
+}
+
+//mobile
+
+@mixin screen-sm{
+    @media (min-width:320px)and(max-width:480px){
+        @content;
+    }
+}
+
+@mixin screen-md{
+    @media (min-width:481px)and(max-width:768px){
+        @content;
+    }
+}
+
+@mixin screen-lg{
+    @media (min-width:769px)and(max-width:1279px){
+        @content;
+    }
+}
+
+@mixin screen-xl{
+    @media (min-width:1279px){
+        @content;
+    }
+}

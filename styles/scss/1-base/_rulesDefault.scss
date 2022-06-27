@@ -1,0 +1,25 @@
+@use "colors";
+@use "../2-layout/mixinsLayout" as mixin;
+@import "fonts";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    @include mixin.screen-sm{
+        font-size: .9rem;
+    }
+}
+
+body{
+    background-color: colors.$cream;
+    font-family: "DM-sans-regular";
+    font-size: 1.125rem;
+}
+
+h3{
+    font-weight: normal;
+}

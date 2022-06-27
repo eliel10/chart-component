@@ -1,0 +1,7 @@
+@use "../1-base/colors";
+
+.speding-chart{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid colors.$light-red;
+}
