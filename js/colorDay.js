@@ -11,7 +11,7 @@ export function colorDay(dayWeek){
     dayWeek.forEach(()=>{
         colorsBar.push(colorPrimary);
     })
-
+    
     colorsBar.splice(today,1,colorSecundary);
 
     return colorsBar;

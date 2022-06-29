@@ -1,4 +1,4 @@
-import { createChart } from "../js/chart/createChart.js";
+import { createChart } from "./createChart.js";
 
 //path to file data.json
 const path = "js/data.json";
