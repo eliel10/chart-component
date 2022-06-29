@@ -21,8 +21,8 @@ Escolhi esse para treinar **SASS/SCSS** (*pré processador CSS*) e utilizar a li
 
 ## Links ##
 
-* Link do projeto: 
-* Link do desafio: 
+* Link do projeto page-web: https://chart-component.netlify.app/
+* Link do desafio: https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt
 * Link da lib chart.js: https://www.chartjs.org/docs/latest/
 
 

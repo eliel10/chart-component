@@ -13,29 +13,3 @@
     color:colors.$darkbrown;
     font-family: "DM-sans-bold";
 }
-
-//mobile
-
-@mixin screen-sm{
-    @media (min-width:320px)and(max-width:480px){
-        @content;
-    }
-}
-
-@mixin screen-md{
-    @media (min-width:481px)and(max-width:768px){
-        @content;
-    }
-}
-
-@mixin screen-lg{
-    @media (min-width:769px)and(max-width:1279px){
-        @content;
-    }
-}
-
-@mixin screen-xl{
-    @media (min-width:1279px){
-        @content;
-    }
-}

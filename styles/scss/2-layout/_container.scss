@@ -1,19 +1,19 @@
-@use "mixinsLayout";
+@use "../1-base/mixinsBase";
 
 .container{
     width: 30vw;
     margin: 5rem auto;
     overflow: hidden;
 
-    @include mixinsLayout.screen-sm{
+    @include mixinsBase.screen-sm{
         width: 90vw;
     }
 
-    @include mixinsLayout.screen-md{
+    @include mixinsBase.screen-md{
         width: 60vw;
     }
 
-    @include mixinsLayout.screen-lg{
+    @include mixinsBase.screen-lg{
         width: 40vw;
     }
 }

@@ -1,0 +1,28 @@
+//mobile
+@mixin screen-sm{
+    @media (max-width:480px){
+        @content;
+    }
+}
+
+//tablet
+@mixin screen-md{
+    @media (min-width:481px)and(max-width:768px){
+        @content;
+    }
+}
+
+//notebook
+@mixin screen-lg{
+    @media (min-width:769px)and(max-width:1279px){
+        @content;
+    }
+}
+
+
+//large screens
+@mixin screen-xl{
+    @media (min-width:1279px){
+        @content;
+    }
+}
