@@ -13,7 +13,7 @@ Escolhi esse para treinar **SASS/SCSS** (*pré processador CSS*) e utilizar a li
 ## Tecnologias utilizadas ##
 
 * HTML
-* SASS/SCSS (CSS)
+* SASS/SCSS
 * JAVA SCRIPT (VANILLA)
 * LIB chart.js
 
